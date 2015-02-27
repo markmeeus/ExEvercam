@@ -1,0 +1,2 @@
+defmodule ExEvercam do
+end

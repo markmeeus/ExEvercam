@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"name\":\"test camera update\",\"is_public\":false,\"internal_host\":\"test.com\",\"id\":\"12345-test-cam\"}",
+      "headers": [],
+      "method": "patch",
+      "options": {
+        "connect_timeout": 5000
+      },
+      "url": "https://api.evercam.io/v1//cameras/12345-test-cam"
+    },
+    "response": {
+      "body": "{\n  \"cameras\": [\n    {\n      \"id\": \"12345-test-cam\",\n      \"name\": \"test camera update\",\n      \"owned\": true,\n      \"owner\": \"markmeeus\",\n      \"vendor_id\": \"\",\n      \"vendor_name\": \"\",\n      \"model_id\": \"\",\n      \"model_name\": \"\",\n      \"created_at\": 1425051337,\n      \"updated_at\": 1425051478,\n      \"last_polled_at\": 1425051460,\n      \"last_online_at\": null,\n      \"timezone\": \"Etc/UTC\",\n      \"is_online\": false,\n      \"is_public\": false,\n      \"discoverable\": false,\n      \"cam_username\": \"\",\n      \"cam_password\": \"\",\n      \"mac_address\": \"\",\n      \"location\": {\n        \"lat\": 0,\n        \"lng\": 0\n      },\n      \"external\": {\n        \"host\": \"\",\n        \"http\": {\n          \"port\": null,\n          \"camera\": \"\",\n          \"jpg\": \"\",\n          \"mjpg\": \"\"\n        },\n        \"rtsp\": {\n          \"port\": null,\n          \"mpeg\": \"\",\n          \"audio\": \"\",\n          \"h264\": \"\"\n        }\n      },\n      \"internal\": {\n        \"host\": \"test.com\",\n        \"http\": {\n          \"port\": null,\n          \"camera\": \"http://test.com\",\n          \"jpg\": \"\",\n          \"mjpg\": \"\"\n        },\n        \"rtsp\": {\n          \"port\": null,\n          \"mpeg\": \"\",\n          \"audio\": \"\",\n          \"h264\": \"\"\n        }\n      },\n      \"dyndns\": {\n        \"host\": \"http://12345-test-cam.evr.cm\",\n        \"http\": {\n          \"jpg\": \"\",\n          \"mjpg\": \"\"\n        },\n        \"rtsp\": {\n          \"mpeg\": \"\",\n          \"audio\": \"\",\n          \"h264\": \"\"\n        }\n      },\n      \"proxy_url\": {\n        \"jpg\": \"http://evr.cm/12345-test-cam.jpg\",\n        \"rtmp\": \"\"\n      },\n      \"rights\": \"snapshot,view,edit,delete,list,grant~snapshot,grant~view,grant~edit,grant~delete,grant~list\",\n      \"thumbnail_url\": \"\"\n    }\n  ]\n}",
+      "headers": {
+        "Server": "Cowboy",
+        "Connection": "keep-alive",
+        "Date": "Fri, 27 Feb 2015 15:37:59 GMT",
+        "Status": "200 OK",
+        "Content-Type": "application/json",
+        "Content-Length": "1696",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
