@@ -21,5 +21,10 @@ defmodule ExEvercam.SnapshotsTest do
     end
   end
 
-
+  test "Ge snapshots" do
+    use_cassette "GET Snapshots" do
+      {:ok, [snapshot | _]} = TestConfig.get |> ExEvercam.API.Snapshot.list(@test_camera_id, %{})
+      assert snapshot.notes == "Evercam System"
+    end
+  end
 end
