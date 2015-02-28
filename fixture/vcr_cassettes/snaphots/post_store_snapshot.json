@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"with_data\":false,\"notes\":\"snapshot notes\",\"data\":\"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\"}",
+      "headers": [],
+      "method": "post",
+      "options": {
+        "connect_timeout": 5000
+      },
+      "url": "https://api.evercam.io/v1//cameras/12345-test-cam/recordings/snapshots/1425165778"
+    },
+    "response": {
+      "body": "{\"message\":\"File not provided or file type not supported\",\"code\":\"invalid_parameters\",\"context\":[\"data\"]}",
+      "headers": {
+        "Server": "Cowboy",
+        "Connection": "keep-alive",
+        "Date": "Sat, 28 Feb 2015 06:42:22 GMT",
+        "Status": "400 Bad Request",
+        "Content-Type": "application/json",
+        "Content-Length": "105",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur"
+      },
+      "status_code": 400,
+      "type": "ok"
+    }
+  }
+]

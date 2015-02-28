@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "connect_timeout": 5000,
+        "follow_redirect": true
+      },
+      "url": "https://api.evercam.io/v1//cameras/evercam-remembrance-camera/recordings/snapshots/1400606432"
+    },
+    "response": {
+      "body": "{\n  \"snapshots\": [\n    {\n      \"created_at\": 1400606432,\n      \"notes\": \"Evercam System\"\n    }\n  ]\n}",
+      "headers": {
+        "Server": "Cowboy",
+        "Connection": "keep-alive",
+        "Date": "Sat, 28 Feb 2015 06:34:46 GMT",
+        "Status": "200 OK",
+        "Content-Type": "application/json",
+        "Content-Length": "100",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 vegur"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

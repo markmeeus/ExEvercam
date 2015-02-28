@@ -11,7 +11,6 @@ defmodule ExEvercam.API.Camera do
   @doc """
   Returns all data for a given camera
   """
-
   def get(config, id, options \\ %{}) do
     cameras = ExEvercam.API.Web.send_request(:get, "cameras/" <> to_string(id) , config.credentials, options)
     {:ok, hd(cameras[:cameras])}
